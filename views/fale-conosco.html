@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Meu css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <title>Argentina | Fale Conosco</title>
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-personalizado">
+            <div class="d-flex navbar-brand" href="#">
+                <img class="icone-nav" src="../img/aviao.png" width="65" height="65" alt="" srcset="">
+                <div class="barra-pequena"><span class="texto-logo">Argentina</span></div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link texto-nav" href="../views/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto-nav" href="../views/sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle texto-nav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Agências
+                        </a>
+                        <div class="dropdown-menu texto-nav" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Agência 1</a>
+                            <a class="dropdown-item" href="#">Agência 2</a>
+                            <a class="dropdown-item" href="#">Agência 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link texto-nav" href="../views/fale-conosco.html">Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container mt-2">
+        <div class="video-overlay-others"></div> <!-- Camada para escurecer a página -->
+        <div class="d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-md-first">
+                        <h1 class="display-1 mt-5 mb-5">Fale Conosco</h1>
+                        <form>
+                            <div class="form-group formulario-box">
+                                <label class="formulario-strings texto-formulario" for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group formulario-box">
+                                <label class="formulario-strings texto-formulario" for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group formulario-box">
+                                <label class="formulario-strings texto-formulario" for="mensagem">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="4"
+                                    placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 order-md-last">
+                        <img class="mt-5" src="../img/voo-de-aviao.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
